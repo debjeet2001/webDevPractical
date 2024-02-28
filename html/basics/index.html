@@ -10,49 +10,124 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <a href="https://www.codingninjas.com" target="_blank"><center><img src="static/logo.jpeg"  width="30%" alt ="logo"></center></a>
+        <nav>
+            <a href="https://www.codingninjas.com" target="_blank"><center><img src="static/logo.jpeg"  width="20%" alt ="logo"></center></a>
         <hr>
 
         <center><img src="static/webdev.jpeg"></center>
+        </nav>
         
-      
-
+      <header>
         <a href ="https://www.codingninjas.com" target="_blank"><strong><p>www.codingninjas.com</p></strong></a>
+
+        
+        <div>
+            <a href="#comment-section">Go to Comments</a>
+            
+        </div>
+
+       
+        <div><a href="#Table-data">Contact Us</a></div>
+
+        <div>
+            <a href="#leave-reply">Leave a reply</a>
+        </div>
 
         <br>
             
         <center><img src = "static/Five-tips-for-front-end-web-development.jpeg" height = "200"width="500" >
         </center>
-        <h1>
-            5 Tips for Frontend development.
-        </h1>
+      </header>
 
-        <p>
-            Don’t you just love exploring beautiful and neat sites with a clean user interface? While most of us would reply with an assertive ‘YES,’ little, do we know the kind of effort and skill that goes into making a website attractive and user-friendly. The secret to creating an impressive site is to master the art of front-end development, and no, it is not as easy as it seems!
-        </p>
-
-        <p>
-            Also see, Must Do Coding Questions. 
-            <br> 
-            <br>However, it is not impossible either.  Here are five tips that’ll help you get better in front-end design and web development.
-        </p>
-
-        <ul type = "circle">
-            <li>Frontend Focus</li>
-            <li>CSS weekly</li>
-            <li>Javascript weekly</li>
-            <li>Web Design weekly</li>
-        </ul>
         
-        <ol type = "I">
-            <li>Frontend Focus</li>
-            <li>CSS weekly</li>
-            <li>Javascript weekly</li>
-            <li>Web Design Weekly</li>
-        </ol>
+        <main>
+            <h1>
+                5 Tips for Frontend development. 😉
+            </h1>
+    
+            <p>
+                Don’t you just love exploring beautiful and neat sites with a clean user interface? While most of us would reply with an assertive ‘YES,’ little, do we know the kind of effort and skill that goes into making a website attractive and user-friendly. The secret to creating an impressive site is to master the art of front-end development, and no, it is not as easy as it seems!
+            </p>
+    
+            <p>
+                Also see, Must Do Coding Questions. 
+                <br> 
+                <br>However, it is not impossible either.  Here are five tips that’ll help you get better in front-end design and web development.
+            </p>
+    
+            <ul type = "circle">
+                <li>Frontend Focus</li>
+                <li>CSS weekly</li>
+                <li>Javascript weekly</li>
+                <li>Web Design weekly</li>
+            </ul>
+            
+            <ol type = "I">
+                <li>Frontend Focus</li>
+                <li>CSS weekly</li>
+                <li>Javascript weekly</li>
+                <li>Web Design Weekly</li>
+            </ol>
+        </main>
         
-        <a href="myFavouriteThings/testing/testing.html">Testing links</a>
+        <footer>
+            <a href="myFavouriteThings/testing/testing.html">Testing links</a>
         <br>
         <a href = "myFavouriteThings/myfavouriteThings.html" >My Favourite Things</a>
-    </body>
+        <br>
+        <a href = "#">Go To Top</a>
+    
+        </footer>
+
+        <a href ="./forms/forms.html">Go to forms</a>
+
+        <section id ="Table-data">
+            <table border="2">
+                <caption>Contact Details</caption>
+                <tr>
+                   <th>Name </th>
+                   <th>Contact</th>
+                   <th>Email</th> 
+                </tr>
+
+                <tr>
+                    <td>Debjeet Chakraborty</td>
+                    <td>8509660569</td>
+                    <td>debjeet.chakraborty.2001@gmail.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id = "comment-section">
+            <h4>COMMENTS</h4>
+            <div>
+                <h5>name: </h5>
+                <h6>comments: </h6>
+            </div>
+        </section>
+
+        <section id="leave-reply">
+            <h3>Leave a reply</h3>
+            <div>
+                <p>Your email address will not be shared with anyone.
+                    Required fields are marked *.
+                </p>
+                <form>
+                    <label for="reply">Name* :</label>
+                    <input id = "reply" required type="text">
+                    <br>
+                    <label for="email">Email* :</label>
+                    <input id="email" required type="email">
+                    <br>
+                    <label for="comment">Comment :*</label>
+                    <input id="comment" type="text">
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+
+        
+
+        </body>
 </html>
